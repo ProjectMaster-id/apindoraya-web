@@ -11,7 +11,7 @@ class Home extends CI_Controller
     $this->load->model('M_berita');
     $this->load->model('M_kategori');
     $this->load->model('M_layanan');
-    $this->load->model('M_Setting');
+    $this->load->model('M_setting');
     $this->load->model('M_staff');
     $this->load->model('M_portfolio');
     $this->load->model('M_client');
