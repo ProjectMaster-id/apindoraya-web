@@ -13,14 +13,14 @@ class Auth extends CI_Controller
     $this->load->library('email');
     //load model
     $this->load->model('M_auth');
-    $this->load->model('M_Setting');
+    $this->load->model('M_setting');
     //load helper
     $this->load->helper('auth');
   }
 
   public function index()
   {
-    $setting = $this->M_Setting->daftar();
+    $setting = $this->M_setting->daftar();
     $title = $setting->nama_perusahaan;
     $image = $setting->image;
 
@@ -50,7 +50,7 @@ class Auth extends CI_Controller
 
   public function register()
   {
-    $setting = $this->M_Setting->daftar();
+    $setting = $this->M_setting->daftar();
     $title = $setting->nama_perusahaan;
     $image = $setting->image;
 
@@ -83,7 +83,7 @@ class Auth extends CI_Controller
 
   public function forgotpassword()
   {
-    $setting = $this->M_Setting->daftar();
+    $setting = $this->M_setting->daftar();
     $title = $setting->nama_perusahaan;
     $image = $setting->image;
 
@@ -131,7 +131,7 @@ class Auth extends CI_Controller
 
   public function changePassword()
   {
-    $setting = $this->M_Setting->daftar();
+    $setting = $this->M_setting->daftar();
     $title = $setting->nama_perusahaan;
     $image = $setting->image;
 
