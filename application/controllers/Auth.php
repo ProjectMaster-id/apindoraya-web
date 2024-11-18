@@ -12,7 +12,7 @@ class Auth extends CI_Controller
     $this->load->library('form_validation');
     $this->load->library('email');
     //load model
-    $this->load->model('M_Auth');
+    $this->load->model('M_auth');
     $this->load->model('M_Setting');
     //load helper
     $this->load->helper('auth');
@@ -42,7 +42,7 @@ class Auth extends CI_Controller
       $this->load->view('auth/v_login', $data, false);
     } else {
       // validasi success
-      $this->M_Auth->login();
+      $this->M_auth->login();
     }
   }
 
@@ -70,13 +70,13 @@ class Auth extends CI_Controller
 
       $this->load->view('auth/v_register', $data, false);
     } else {
-      $this->M_Auth->register();
+      $this->M_auth->register();
     }
   }
 
   public function verify()
   {
-    $this->M_Auth->verify();
+    $this->M_auth->verify();
   }
 
 
@@ -102,7 +102,7 @@ class Auth extends CI_Controller
 
       $this->load->view('auth/v_forgotpass', $data, false);
     } else {
-      $this->M_Auth->forgotPassword();
+      $this->M_auth->forgotPassword();
     }
   }
 
@@ -152,7 +152,7 @@ class Auth extends CI_Controller
 
       $this->load->view('auth/v_changepass', $data, false);
     } else {
-      $this->M_Auth->changePassword();
+      $this->M_auth->changePassword();
     }
   }
 
