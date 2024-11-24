@@ -4,8 +4,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 d-flex flex-column justify-content-center">
-        <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-        <h2 data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, quaerat.</h2>
+        <h1 data-aos="fade-up">We offer sustainable and high-quality solutions to support your agricultural and plantation business growth</h1>
+        <h2 data-aos="fade-up" data-aos-delay="400">Empowering Agriculture with Quality and Sustainability.</h2>
         <div data-aos="fade-up" data-aos-delay="600">
           <div class="text-center text-lg-start">
             <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -62,43 +62,43 @@
       <header class="section-header">
         <h2>Our Values</h2>
         <hr>
-        <p>Odit est perspiciatis laborum et dicta</p>
+        <p>Keunggulan Kami</p>
       </header>
 
       <div class="row">
 
+
         <div class="col-lg-4">
           <div class="box" data-aos="fade-up" data-aos-delay="200">
             <img src="<?= base_url(); ?>vendor/front-end/assets/img/values-1.png" class="img-fluid" alt="">
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita distinctio id iure asperiores delectus recusandae!</p>
+            <h3>Menyediakan Produk Berkualitas.</h3>
+            <p>Kami menyediakan produk pertanian dan perkebunan berkualitas tinggi, diproduksi dari ladang terbaik dengan proses yang terjamin untuk memenuhi standar pasar</p>
           </div>
         </div>
 
         <div class="col-lg-4 mt-4 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="400">
             <img src="<?= base_url(); ?>vendor/front-end/assets/img/values-2.png" class="img-fluid" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora rem eaque odio magnam cumque. Fuga?</p>
+            <h3>Mendukung Keberlanjutan.</h3>
+            <p>Kami berkomitmen untuk mengembangkan praktik pertanian yang ramah lingkungan dan berkelanjutan, mengutamakan keseimbangan antara pemenuhan kebutuhan pasar dan pelestarian alam.</p>
           </div>
         </div>
 
         <div class="col-lg-4 mt-4 mt-lg-0">
           <div class="box" data-aos="fade-up" data-aos-delay="600">
             <img src="<?= base_url(); ?>vendor/front-end/assets/img/values-3.png" class="img-fluid" alt="">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic quisquam quis alias cum tempore iste!</p>
+            <h3>Kemitraan dan Pengembangan Komunitas.</h3>
+            <p>Kami menjalin kemitraan dengan petani lokal dan berinvestasi dalam pengembangan komunitas melalui pelatihan, akses teknologi modern, dan peluang pasar yang lebih luas.</p>
           </div>
         </div>
 
-      </div>
 
-    </div>
+      </div>
 
   </section><!-- End Values Section -->
 
   <!-- ======= Counts Section ======= -->
-  <section id="counts" class="counts">
+  <!-- <section id="counts" class="counts">
     <div class="container" data-aos="fade-up">
 
       <div class="row gy-4">
@@ -146,74 +146,78 @@
       </div>
 
     </div>
-  </section><!-- End Counts Section -->
+  </section> -->
 
   <!-- ======= Features Section ======= -->
   <section id="features" class="features">
 
     <div class="container" data-aos="fade-up">
 
-      <header class="section-header">
-        <h2>Features</h2>
-        <hr>
-        <p>Laboriosam et omnis fuga quis dolor direda fara</p>
-      </header>
+      <div class="container" data-aos="fade-up">
 
-      <div class="row">
+        <header class="section-header">
+          <h2>Our Features</h2>
+          <hr>
+          <p>Empowering agriculture with quality and sustainability</p>
+        </header>
 
-        <div class="col-lg-6">
-          <img src="<?= base_url(); ?>vendor/front-end/assets/img/features.png" class="img-fluid" alt="">
-        </div>
+        <div class="row">
 
-        <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
-          <div class="row align-self-center gy-4">
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Eos aspernatur rem</h3>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Facilis neque ipsa</h3>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Volup amet voluptas</h3>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Rerum omnis sint</h3>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Alias possimus</h3>
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-              <div class="feature-box d-flex align-items-center">
-                <i class="bi bi-check"></i>
-                <h3>Repellendus mollitia</h3>
-              </div>
-            </div>
-
+          <div class="col-lg-6">
+            <img src="<?= base_url(); ?>vendor/front-end/assets/img/features.png" class="img-fluid" alt="Agriculture Features">
           </div>
+
+          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+            <div class="row align-self-center gy-4">
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>High-Quality Products</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Environmental Sustainability</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Innovative Farming Practices</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Community Empowerment</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Market-Driven Solutions</h3>
+                </div>
+              </div>
+
+              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                <div class="feature-box d-flex align-items-center">
+                  <i class="bi bi-check"></i>
+                  <h3>Trusted by Farmers</h3>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
 
-      </div> <!-- / row -->
+      </div>
 
       <!-- Feature Tabs -->
       <div class="row feture-tabs" data-aos="fade-up">
@@ -339,7 +343,7 @@
 
       <header class="section-header">
         <h2>Services</h2>
-        <p>Veritatis et dolores facere numquam et praesentium</p>
+        <p>Layanan Yang Kami Tawarkan</p>
       </header>
 
       <div class="row gy-4">
@@ -364,7 +368,7 @@
   </section><!-- End Services Section -->
 
   <!-- ======= F.A.Q Section ======= -->
-  <section id="faq" class="faq">
+  <!-- <section id="faq" class="faq">
 
     <div class="container" data-aos="fade-up">
 
@@ -375,7 +379,7 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <!-- F.A.Q List 1-->
+ 
           <div class="accordion accordion-flush" id="faqlist1">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -421,7 +425,7 @@
 
         <div class="col-lg-6">
 
-          <!-- F.A.Q List 2-->
+     
           <div class="accordion accordion-flush" id="faqlist2">
 
             <div class="accordion-item">
@@ -470,10 +474,12 @@
 
     </div>
 
-  </section><!-- End F.A.Q Section -->
+  </section> -->
+
+  <!-- End F.A.Q Section -->
 
   <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
+  <!-- <section id="portfolio" class="portfolio">
 
     <div class="container" data-aos="fade-up">
 
@@ -496,7 +502,7 @@
       <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
         <?php foreach ($portfolio as $key => $value) :
-          // strip tags to avoid breaking any html
+
           if ($value->nama_layanan == " App Development" && $value->status_portfolio == "Publish") : ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
@@ -515,7 +521,7 @@
         <?php endforeach; ?>
 
         <?php foreach ($portfolio as $key => $value) :
-          // strip tags to avoid breaking any html
+
           if ($value->nama_layanan == " Web Development" && $value->status_portfolio == "Publish") : ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
@@ -534,7 +540,7 @@
         <?php endforeach; ?>
 
         <?php foreach ($portfolio as $key => $value) :
-          // strip tags to avoid breaking any html
+
           if ($value->nama_layanan == "Web Design" && $value->status_portfolio == "Publish") : ?>
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
@@ -556,10 +562,10 @@
 
     </div>
 
-  </section><!-- End Portfolio Section -->
+  </section> -->
 
   <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials">
+  <!-- <section id="testimonials" class="testimonials">
 
     <div class="container" data-aos="fade-up">
 
@@ -600,7 +606,7 @@
               </div>
             <?php endif; ?>
           <?php endforeach; ?>
-          <!-- End testimonial item -->
+  
 
         </div>
         <div class="swiper-pagination"></div>
@@ -608,10 +614,12 @@
 
     </div>
 
-  </section><!-- End Testimonials Section -->
+  </section> -->
+
+  <!-- End Testimonials Section -->
 
   <!-- ======= Team Section ======= -->
-  <section id="team" class="team">
+  <!-- <section id="team" class="team">
 
     <div class="container" data-aos="fade-up">
 
@@ -647,7 +655,7 @@
 
     </div>
 
-  </section><!-- End Team Section -->
+  </section> -->
 
   <!-- ======= Clients Section ======= -->
   <section id="clients" class="clients">
@@ -655,8 +663,8 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Our Clients</h2>
-        <p>Temporibus omnis officia</p>
+        <!-- <h2>Our Clients</h2> -->
+        <p>Our Clients</p>
       </header>
 
       <div class="clients-slider swiper-container">
@@ -673,10 +681,10 @@
       </div>
     </div>
 
-  </section><!-- End Clients Section -->
+  </section>
 
   <!-- ======= Recent Blog Posts Section ======= -->
-  <section id="recent-blog-posts" class="recent-blog-posts">
+  <!-- <section id="recent-blog-posts" class="recent-blog-posts">
 
     <div class="container" data-aos="fade-up">
 
@@ -714,7 +722,7 @@
 
     </div>
 
-  </section><!-- End Recent Blog Posts Section -->
+  </section> -->
 
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
@@ -728,13 +736,14 @@
 
       <div class="row gy-4">
 
-        <div class="col-lg-6">
+        <div class="col-lg-12">
 
           <div class="row gy-4">
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-geo-alt"></i>
                 <h3>Address</h3>
+                <p>alamat Kami</p>
                 <p><?= $setting->alamat; ?></p>
               </div>
             </div>
@@ -763,7 +772,7 @@
 
         </div>
 
-        <div class="col-lg-6">
+        <!-- <div class="col-lg-6">
           <form action="forms/contact.php" method="post" class="php-email-form">
             <div class="row gy-4">
 
@@ -794,7 +803,7 @@
             </div>
           </form>
 
-        </div>
+        </div> -->
 
       </div>
 
