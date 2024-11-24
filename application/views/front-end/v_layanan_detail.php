@@ -6,7 +6,7 @@
 
       <ol>
         <li><a href="<?= base_url('home/#hero'); ?>">Home</a></li>
-        <li><a href="<?= base_url('home/blog'); ?>">Blog</a></li>
+        <!-- <li><a href="<?= base_url('home/blog'); ?>">Blog</a></li> -->
         <li><?= $detail->judul_layanan; ?></li>
       </ol>
       <h2><?= $detail->judul_layanan; ?></h2>
