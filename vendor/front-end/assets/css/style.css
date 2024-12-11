@@ -2125,7 +2125,7 @@ p .truncate {
     .card .card-stats .card-stats-items .card-stats-item {
       padding: 5px 7px; }
       .card .card-stats .card-stats-items .card-stats-item .card-stats-item-count {
-        font-size: 16px; }
+        font-size: 20px; }
   .card.card-sm-6 .card-chart canvas {
     height: 85px !important; }
   .card.card-hero .card-header {
