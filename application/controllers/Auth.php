@@ -20,29 +20,35 @@ class Auth extends CI_Controller
 
   public function index()
   {
-    $setting = $this->M_setting->daftar();
-    $title = $setting->nama_perusahaan;
-    $image = $setting->image;
+    $token = $this->input->get('token');
+    if (isset($token)) {
+      $setting = $this->M_setting->daftar();
+      $title = $setting->nama_perusahaan;
+      $image = $setting->image;
 
-    // PENGECEKAN SESSION JIKA ADA SESSION AKAN DIARAHKAN KE DASHBOARD
-    if ($this->session->userdata('email')) {
-      redirect('dashboard');
-    }
-    //helper function dari auth_helper
-    login_validation();
-    if ($this->form_validation->run() == false) {
+      // PENGECEKAN SESSION JIKA ADA SESSION AKAN DIARAHKAN KE DASHBOARD
+      if ($this->session->userdata('email')) {
+        redirect('dashboard');
+      }
+      //helper function dari auth_helper
+      login_validation();
+      if ($this->form_validation->run() == false) {
 
-      $data = array(
-        'title'    => $title,
-        'subtitle' => 'Login',
-        'isi'      => 'v_login',
-        'image'    => $image
-      );
+        $data = array(
+          'title' => $title,
+          'subtitle' => 'Login',
+          'isi' => 'v_login',
+          'image' => $image
+        );
 
-      $this->load->view('auth/v_login', $data, false);
+        $this->load->view('auth/v_login', $data, false);
+      } else {
+        // validasi success
+        $this->M_auth->login();
+      }
     } else {
-      // validasi success
-      $this->M_auth->login();
+      $this->session->set_flashdata('error', 'Token Tidak Valid');
+      redirect('home');
     }
   }
 
@@ -62,10 +68,10 @@ class Auth extends CI_Controller
     register_validation();
     if ($this->form_validation->run() == false) {
       $data = array(
-        'title'     => $title,
-        'subtitle'  => 'Register',
-        'isi'       => 'v_register',
-        'image'     => $image
+        'title' => $title,
+        'subtitle' => 'Register',
+        'isi' => 'v_register',
+        'image' => $image
       );
 
       $this->load->view('auth/v_register', $data, false);
@@ -94,10 +100,10 @@ class Auth extends CI_Controller
     forgot_validation();
     if ($this->form_validation->run() == false) {
       $data = array(
-        'title'     => $title,
-        'subtitle'  => 'Lupa Password',
-        'isi'       => 'v_forgotpass',
-        'image'     => $image
+        'title' => $title,
+        'subtitle' => 'Lupa Password',
+        'isi' => 'v_forgotpass',
+        'image' => $image
       );
 
       $this->load->view('auth/v_forgotpass', $data, false);
@@ -144,10 +150,10 @@ class Auth extends CI_Controller
     changepass_validation();
     if ($this->form_validation->run() == false) {
       $data = array(
-        'title'    => $title,
+        'title' => $title,
         'subtitle' => 'Ubah Password',
-        'isi'      => 'v_changepass',
-        'image'    => $image,
+        'isi' => 'v_changepass',
+        'image' => $image,
       );
 
       $this->load->view('auth/v_changepass', $data, false);
